@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of legends</title>
+</head>
+<body>
+    <header>
+        <h1>Ornn faniklubi</h1>
+    </header>
+    <nav aria-label="Päänavigaatio">
+        <ul>
+            <li><a href="../index.html">Etusivu</a></li>
+            <li><a href="league-of-legends.html">Tietoa Ornn:ista</a></li>
+            <li><a href="galleria.html">Galleria</a></li>
+            <li><a href="ota-yhteytta.html">Ota yhteyttä</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Liity Ornn faniklubiin</h2>
+        <form>
+            <fieldset>
+                <legend>Yhteystiedot</legend>
+                <label for="name">Nimi</label>
+                <input type="text" name="name" id="name" autocomplete="name" required>
+                <label for="email">Sähköposti</label>
+                <input type="email" name="email" id="email" autocomplete="email" required>
+                <label for="best-skin">Paras skini</label>
+                <select id="best-skin" name="best-skin">
+                    <option value="default">Default</option>
+                    <option value="thunder-lord">Thunder Lord</option>
+                    <option value="elderwood">Elderwood</option>
+                    <option value="space-groove">Space Groove</option>
+                    <option value="choo-choo">Choo-Choo</option>
+                    <option value="aegis-framke">Aegis Frame</option>
+                </select>
+                <fieldset>
+                    <legend>Toisena max levutan</legend>
+                    <input type="radio" id="2nd-max-q" name="2nd-max" value="q">
+                    <label for="2nd-max-q">Q</label>
+                    <input type="radio" id="2nd-max-e" name="2nd-max" value="e">
+                    <label for="2nd-max-e">E</label>
+                </fieldset>
+                <label for="question">Lisä kysymyksiä</label>
+                <textarea id="question" name="question" rows="5" cols="33"></textarea>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+            <a href="mailto:ornnfanclub@example.com">Sähköposti</a>
+        </form>
+    </main>
+    <footer>
+        <p>tämä sivu noudattaa Riot Gamesin <a href="https://www.riotgames.com/legal-jibber-jabber" target="_blank" rel="noopener noreferrer">“Legal Jibber Jabber”</a> käytäntöä</p>
+    </footer>
+</body>
+</html>
