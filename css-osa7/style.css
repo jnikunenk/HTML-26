@@ -1,0 +1,16 @@
+.card {
+    color: black;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 1rem;
+    min-width: 0;
+    max-width: none;
+
+    display: flex;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1.5rem;
+}

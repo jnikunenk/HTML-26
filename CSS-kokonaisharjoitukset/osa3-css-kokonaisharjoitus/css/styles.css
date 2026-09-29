@@ -1,0 +1,43 @@
+/* CSS-kokonaisharjoitus, osa 3 */
+
+/* Aloita CSS:n kirjoittaminen tämän kommentin alta. */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.card {
+    color: black;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+#main-nav {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #111827;
+}
+
+.card > h2 {
+    margin-top: 0;
+}
+
+a[href^="#"] {
+    text-decoration: none;
+} 
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+.card {
+    min-width: 0;
+    max-width: 16rem;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+}

@@ -1,0 +1,27 @@
+/* Harjoitus 1 */
+
+.card {
+    width: 200px;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+/* Harjoitus 2 */
+
+.toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.help {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
