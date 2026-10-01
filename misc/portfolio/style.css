@@ -1,0 +1,23 @@
+code {
+    background-color: #eeeeee;
+    font-family: Consolas, 'Courier New', monospace;
+    display: flex;
+}
+
+.syntax-variable {
+    display: inline;
+    box-sizing: border-box;
+    color: rgb(206, 65, 65);
+    height: auto;
+    text-wrap-mode: nowrap;
+    white-space-collapse: preserve;
+    width: auto;
+    margin: 0px;
+
+    padding: 0px;
+}
+
+.syntax-return {
+    display: inline-flex;
+    color: rgb(202, 131, 0);
+}
