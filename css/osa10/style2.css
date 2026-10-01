@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    width: fit-content;
+    min-width: 20rem;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 12px;
+    flex-direction: column;
+}
+
+.card * {
+    margin: 1rem;
+}
+
+.card h2 {
+    font-size: 2em;
+    margin: 1rem;
+}
+
+.card a {
+    text-decoration: none;
+    border-radius: 12px;
+    border: 1px solid black;
+    background-color: #dddddd;
+    width: fit-content;
+    padding: 0.4rem;
+    color: black;
+}

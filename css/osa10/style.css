@@ -1,0 +1,42 @@
+:root {
+    --text-body: 1rem;
+    --text-h1: 3rem;
+    --text-h2: 2rem;
+    --leading-body: 1.65;
+}
+
+body {
+    font-size: var(--text-body);
+}
+
+h1 {
+    font-size: var(--text-h1);
+}
+
+h2 {
+    font-size: var(--text-h2);
+}
+
+article {
+    max-width: 65ch;
+}
+
+p {
+    font-size: 1em;
+}
+
+small {
+    font-size: 0.6em;
+}
+
+a {
+    font-size: 0.9;
+    text-decoration: none;
+}
+
+code {
+    white-space: pre;
+    background-color: #eeeeee;
+    font-family: Consolas, 'Courier New', monospace;
+    display: inline-flex;
+}
